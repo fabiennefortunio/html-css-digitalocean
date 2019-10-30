@@ -26,11 +26,8 @@
 
 }
 
-#containerlink {
-    position: relative;
-}
-#features {
-    position: absolute;
+.navbar-brand img {
+    width: 200px;
 }
 
 #containerlink {
@@ -41,6 +38,9 @@
     border-radius: 5px;
 }
 
+#bs-example-navbar-collapse-1 {
+    padding: 10px;
+}
 
 
 .jumbotron {
