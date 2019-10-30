@@ -20,10 +20,11 @@
 }
 
 .new {
-    float: left;
-    height: 100px;
-
+    line-height: 3.5;
+    padding-left: 15px;
+    background-color: green;
 }
+
 
 img {
     background-color: #3247c9;
