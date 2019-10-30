@@ -13,10 +13,22 @@
   font-size: 17px;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 .new {
     float: left;
     height: 100px;
 
+}
+
+img {
+    background-color: #3247c9;
+}
+
+.jumbotron {
+    padding: 0;
 }
 /**.navbar-default {
     margin-bottom: 0;
