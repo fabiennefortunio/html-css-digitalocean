@@ -47,7 +47,20 @@
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
     height: 740px;
 
+}
 
+.col-lg-6 {
+    color: #fff;
+}
+h1 {
+    padding-left: 40%;
+    margin-top: 20%;
+
+}
+
+p {
+    padding-left: 40%;
+}
 
 
 
