@@ -1,7 +1,9 @@
 .topnav {
-  background-color: grey;
+  background-color: white;
   overflow: hidden;
   height:40px;
+  color: black;
+
 }
 
 .topnav a {
