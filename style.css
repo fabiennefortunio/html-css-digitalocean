@@ -22,9 +22,15 @@
 .new {
     line-height: 3.5;
     padding-left: 15px;
-    background-color: green;
 }
 
+#containerlink {
+    font-size: 10px;
+    background-color: #64d4d5;
+    border: 10px;
+    padding: 4px;
+    border-radius: 5px;
+}
 
 img {
     background-color: #3247c9;
