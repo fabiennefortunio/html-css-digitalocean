@@ -52,13 +52,13 @@ main {
     color: #fff;
 }
 h1 {
-    padding-left: 40%;
+    padding-left: 20%;
     margin-top: 20%;
 
 }
 
 p {
-    padding-left: 40%;
+    padding-left: 20%;
 }
 
 .form-right {
@@ -71,6 +71,19 @@ p {
     height: 600px;
 }
 
+form {
+    margin-top: 90px;
+}
+
+.col-lg-12 {
+    height: 280px;
+    background-color: grey;
+}
+
+.LogoList img {
+    vertical-align: middle;
+    
+}
 
 /**.navbar-default {
     margin-bottom: 0;
