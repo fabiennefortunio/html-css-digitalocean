@@ -19,6 +19,7 @@
     margin-bottom: 0;
 }
 
+
 .new {
     line-height: 3.5;
     padding-left: 15px;
@@ -69,6 +70,7 @@ p {
 .jumboform form{
     background-color: white;
     height: 600px;
+    border-radius: 15px;
 }
 
 form {
@@ -77,7 +79,7 @@ form {
 
 .col-lg-12 {
     height: 280px;
-    background-color: grey;
+    background-color: #f4f5f9;
 }
 
 .LogoList li {
@@ -112,6 +114,20 @@ form {
     writing-mode: vertical-lr;
     text-align: center;
     white-space: pre-line;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #969dad;
+    display: block;
+    letter-spacing: 1px;
+    padding-top: 5%;
+}
+
+.customerlink {
+    text-align: center;
 }
 
 
