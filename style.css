@@ -20,6 +20,7 @@
 
 .navbar {
     margin-bottom: 0;
+    background-color: white;
 }
 
 
@@ -27,10 +28,6 @@
     line-height: 3.5;
     padding-left: 15px;
 
-}
-
-.navbar {
-    background-color: white;
 }
 .navbar-brand img {
     width: 200px;
@@ -80,44 +77,24 @@ form {
     margin-top: 90px;
 }
 
-.col-lg-12 {
-    height: 280px;
-
-}
-
-.LogoList li {
-    list-style:none;
-}
-
-.docker img {
-    height: 77px;
-}
-
-.github img {
-    height: 78px;
-}
-
-.slack img {
-    height: 77px;
-}
-
-.hashicorp img {
-    height: 77px;
-}
-
-.wework img {
-    height: 77px;
-}
-
-.splunk img {
-    height: 36px;
+ .LogoList img {
+    width: 110px;
+    display: inline-block;
 }
 
 .LogoList {
-    writing-mode: vertical-lr;
-    text-align: center;
-    white-space: pre-line;
+    text-align:justify;
+
 }
+
+.LogoList::after {
+    content: "";
+    width:100%;
+    display: inline-block;
+
+}
+
+
 
 h2 {
     text-align: center;
