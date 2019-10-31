@@ -80,9 +80,14 @@ form {
     background-color: grey;
 }
 
+.LogoList li {
+    list-style:none;
+}
+
 .LogoList img {
     vertical-align: middle;
-    
+
+
 }
 
 /**.navbar-default {
