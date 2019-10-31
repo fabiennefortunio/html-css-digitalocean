@@ -1,8 +1,4 @@
 
-.container-fluid {
-    height: 100%;
-}
-
 .topnav {
   background-color: white;
   overflow: hidden;
@@ -10,8 +6,11 @@
 
 }
 
+.destra {
+    float: right;
+}
 .topnav a {
-  float: right;
+
   color: grey;
   text-align: center;
   padding: 14px 16px;
@@ -30,6 +29,9 @@
 
 }
 
+.navbar {
+    background-color: white;
+}
 .navbar-brand img {
     width: 200px;
 }
@@ -70,21 +72,17 @@ p {
     float: right;
 
 }
-
-.jumboform form{
+.jumbotron {
     background-color: white;
-    height: 540px;
-    width: 477px;
-    border-radius: 15px;
-}
 
+}
 form {
     margin-top: 90px;
 }
 
 .col-lg-12 {
     height: 280px;
-    background-color: #f4f5f9;
+
 }
 
 .LogoList li {
