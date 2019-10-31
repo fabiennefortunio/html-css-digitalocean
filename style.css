@@ -84,11 +84,36 @@ form {
     list-style:none;
 }
 
-.LogoList img {
-    vertical-align: middle;
-
-
+.docker img {
+    height: 77px;
 }
+
+.github img {
+    height: 78px;
+}
+
+.slack img {
+    height: 77px;
+}
+
+.hashicorp img {
+    height: 77px;
+}
+
+.wework img {
+    height: 77px;
+}
+
+.splunk img {
+    height: 36px;
+}
+
+.LogoList {
+    writing-mode: vertical-lr;
+    text-align: center;
+    white-space: pre-line;
+}
+
 
 /**.navbar-default {
     margin-bottom: 0;
