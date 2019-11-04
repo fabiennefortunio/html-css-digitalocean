@@ -83,11 +83,12 @@ main {
 }
 .jumbotron {
     background-color: white;
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 3%;
     width: 75%;
     float: right;
     margin-right: 15%;
+    border-radius: 1%;
 
 }
 .container .jumbotron, .container-fluid .jumbotron {
@@ -134,6 +135,7 @@ form {
     border-top: 2px solid black;
     left: -125px;
     top: 30px;
+    opacity: 4%;
 }
 
 .separator p::after {
@@ -144,6 +146,7 @@ form {
     border-top: 2px solid black;
     left: 143px;
     top: 30px;
+    opacity: 4%;
 
 }
 
