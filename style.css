@@ -2,6 +2,14 @@
     max-width: 99.9%;
 }**/
 
+.grey {
+    background-color: #f4f5f9;
+}
+
+.blue {
+    color: #0069ff;
+}
+
 
 .topnav {
   background-color: white;
@@ -182,7 +190,7 @@ form {
 
 }
 
-h2 {
+#innovative h2 {
     text-align: center;
     font-size: 15px;
     text-transform: uppercase;
@@ -199,6 +207,29 @@ h2 {
     text-decoration: none;
     cursor: pointer;
     margin: 3%;
+}
+
+#deploy .col-xs-12 h1 {
+    padding: 90px 0 20px;
+}
+
+
+#deploy .col-xs-12 .title-p {
+    font-size: 150%;
+    opacity: 0.9;
+    font-weight: 200;
+
+}
+
+#deploy-barra {
+    margin: 0 0 -12px;
+    border-left: 3px solid blue;
+
+}
+@media screen and (max-width:480px) {
+    .col-xxs-12 {
+        width: 100%;
+    }
 }
 
 
