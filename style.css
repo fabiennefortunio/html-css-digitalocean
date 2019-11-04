@@ -1,4 +1,4 @@
-**/* {
+*/** {
     max-width: 99.9%;
 }**/
 
@@ -32,6 +32,8 @@
 .new {
     line-height: 3.5;
     padding-left: 15px;
+
+/** MENU BOOTSTRAP **/
 
 }
 .navbar-brand img {
@@ -189,6 +191,8 @@ h2 {
     letter-spacing: 1px;
     padding-top: 5%;
 }
+
+/**CUSTOMER SECTION **/
 
 .customerlink {
     text-align: center;
