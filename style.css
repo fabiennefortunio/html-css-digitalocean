@@ -84,17 +84,15 @@ main {
 .jumbotron {
     background-color: white;
     margin-top: 20%;
-    padding: 5%;
+    padding: 3%;
     width: 75%;
     float: right;
     margin-right: 15%;
 
 }
-
-@media screen and (min-width: 768px) {
 .container .jumbotron, .container-fluid .jumbotron {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
@@ -107,6 +105,14 @@ form {
 .jumbotron h3 {
     font-size: 245%;
     margin: 0;
+    padding: 20px 0 35px;
+
+}
+
+.jumbotron input {
+    font-size: 150%;
+    font-weight: normal;
+    padding: 30px 15px;
 }
 
 .btn-primary {
@@ -118,26 +124,40 @@ form {
 .separator p {
     position: relative;
     display: inline-block;
-
+    padding: 13px 0;
 }
 .separator p::before {
     position: absolute;
     content: "";
     display:inline-block;
-    width: 65%;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    left: -95px;
-    top: 15px;
+    width: 85%;
+    border-top: 2px solid black;
+    left: -125px;
+    top: 30px;
 }
 
 .separator p::after {
     position: absolute;
     content: "";
     display:inline-block;
-    width: 65%;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    left: 138px;
-    top: 15px;
+    width: 85%;
+    border-top: 2px solid black;
+    left: 143px;
+    top: 30px;
+
+}
+
+.jumbotron .btn-default {
+    padding: 10px 80px;
+    font-size: 140%;
+    position: relative;
+    margin: 0 10px;
+}
+
+.jumbotron .btn-default i {
+    position: absolute;
+    left: 15px;
+    top:15px;
 }
 
  .LogoList img {
